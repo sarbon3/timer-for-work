@@ -1,0 +1,38 @@
+#container{
+    display: flex;
+    flex-direction: column;
+}
+#myVideo{
+    position: fixed;
+    top:0;
+    right: 0;
+    min-width: 100vh;
+    min-height: 100vh;
+    z-index: -10;
+    width: 100%;
+}
+#par,#relaxTimer{
+    color: black;
+    font-size: 35px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 700;
+    margin-left: 500px ;
+}
+#relaxTimer{
+margin-left: 550px;
+} 
+#myButton{
+    display: none;
+
+}
+@media all and (max-width:500px){
+    #myButton{
+        display: block;
+        padding:10px;
+        background-color: rgb(74, 105, 105);
+        margin-left: 250px;
+        font-family: 'Noto Serif JP', serif;
+        font-size: 10px;
+        color: black;
+        }
+}

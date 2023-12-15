@@ -1,0 +1,72 @@
+body{
+    background: black;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+hr{
+    width: 15%;
+    padding: 0;
+}
+#topName{
+    color: white;
+    font-size: 35px;
+    font-family: 'Noto Serif JP', serif;
+}
+#containerForWork{
+    display: flex;
+    justify-content: center;
+}
+#containerForRest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#workingHard, #relax{
+    color: white;
+    font-size: 25px;
+    font-family: 'Noto Serif JP', serif;
+}
+#workingHard{
+    margin-left: 600px;
+    margin-top: 50px;
+}
+#startWorking,#stopWorking, #startResting, #reset{
+    color: wheat;
+    font-size: 15px;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid white;
+    width: 10%;
+    font-family: 'Noto Serif JP', serif;
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#explanation{
+    color:white;
+    font-size: 10px;
+    font-family: 'Noto Serif JP', serif;
+    margin: 0;
+}
+#startWorkingTime{
+    color:white;
+    font-size: 40px;
+    font-family: 'Noto Serif JP', serif;
+    margin-left: 620px;
+}
+#enterTime{
+    margin: 10px;
+    color: wheat;
+    font-size: 15px;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid white;
+    width: 18%;
+    font-family: 'Noto Serif JP', serif;
+}
